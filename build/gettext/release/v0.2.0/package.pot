@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023-2025, RTP-LLM
+# This file is distributed under the same license as the RTP-LLM package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: RTP-LLM 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-25 11:18+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../release/v0.2.0/package.md:1
+msgid "package"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:3
+msgid "whl"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:7
+msgid "docker"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "**CardType**"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "**image**"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "**tag**"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "**CUDA-SM9x**"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "hub.docker.alibaba-inc.com/isearch/rtp_llm_sm9x:0.2.0_2025_09_24_21_00_615e568 _accelerated"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "**CUDA-SM8x**"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "hub.docker.alibaba-inc.com/isearch/rtp_llm_sm8x:0.2.0_2025_09_24_21_00_615e568 _accelerated"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "**CUDA-SM7x**"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "hub.docker.alibaba-inc.com/isearch/rtp_llm_sm7x:0.2.0_2025_09_24_21_00_615e568 _accelerated"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "**AMD**"
+msgstr ""
+
+#: ../../release/v0.2.0/package.md:0
+msgid "hub.docker.alibaba-inc.com/isearch/rtp_llm_rocm:0.2.0_2025_09_24_21_00_615e568 _accelerated"
+msgstr ""
