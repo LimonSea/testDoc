@@ -9,9 +9,26 @@
       name="description"
       content="RTP-LLM - Production-Ready Large Language Model Inference Engine"
     />
+    <meta name="aplus-core" content="aplus.js" />
     <title>
       RTP-LLM - Production-Ready Large Language Model Inference Engine
     </title>
+    <script>
+      (function (w, d, s, q) {
+        w[q] = w[q] || [];
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s);
+        j.async = true;
+        j.id = "beacon-aplus";
+        j.setAttribute(
+          "exparams",
+          "userid=&aplus&sidx=aplusSidex&ckx=aplusCkx"
+        );
+        j.src = "//g.alicdn.com/alilog/mlog/aplus_v2.js";
+        j.crossorigin = "anonymous";
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "aplus_queue");
+    </script>
     <script type="module" crossorigin src="./assets/index-d2159c8e.js"></script>
     <link rel="stylesheet" href="./assets/index-cc1a23eb.css">
   </head>
@@ -28,14 +45,18 @@
       // 生成用户ID的函数
       function generateUserId() {
         // 尝试从localStorage获取已存在的用户ID
-        let userId = localStorage.getItem('rtp_llm_docs_user_id');
-        
+        let userId = localStorage.getItem("rtp_llm_docs_user_id");
+
         // 如果不存在，则生成一个新的UUID并存储
         if (!userId) {
-          userId = 'user_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
-          localStorage.setItem('rtp_llm_docs_user_id', userId);
+          userId =
+            "user_" +
+            Date.now() +
+            "_" +
+            Math.random().toString(36).substr(2, 9);
+          localStorage.setItem("rtp_llm_docs_user_id", userId);
         }
-        
+
         return userId;
       }
 
